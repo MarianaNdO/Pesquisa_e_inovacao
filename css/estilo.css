@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto', Geneva, sans-serif;
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header {
+    border-bottom: 2px #32b9cd solid;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e3b062
+}
+
+.agora {
+    font-weight: 800;
+}
+.selecionado {
+    font-weight: 800;
+}
+.navbar{
+    width: 370px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.titulo {
+    color: #32b0cd;
+    width: fit-content;
+    font-weight: 500;
+}
+.banner{
+    height: fit-content;
+    padding: 40px 0;
+    color: white;
+    background-image: url('../ASSETS/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+}
+
+.banner .container{
+    height: 400px;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner p {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+}
+
+.banner .container span {
+    font-weight: 800;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #32B9CD;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.form{
+    height: 407px;
+    width: 100%;
+    background-image: url('../ASSETS/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    padding-top: 5%;
+}
+
+.container_form{
+    height: 70%;
+    display: flex;
+    margin-left: 37%;
+    justify-content: center;
+    border-radius: 8px;
+    width: 25%;
+    color: #DB90C4;
+    background-color: rgb(241, 237, 237);
+    
+}
+
+.container_form button {
+    border-radius: 8px;
+    background-color: #E6005A;
+    color: white;
+    border: none;
+    padding: 4% 11%;
+    margin: auto;
+    display: flex;
+    margin-top: 6%;
+    
+    
+}
+
+.container_form .content h1 {
+    padding-top: 5%;
+    color: #DB90C4;
+}
+
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 16%;
+    font-size: 20px;
+    color: #DB7097;
+    font-weight: bold;
+}
+
+.form_input span {
+    padding-top: 6%;
+    color: #DB90C4;
+}
+
+.form_input input {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #32B9CD;
+    padding: 2% 0;
+}
+.form_input input::placeholder {
+    text-align: center;
+}
